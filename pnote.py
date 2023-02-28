@@ -54,9 +54,7 @@ def list_notes(csv_path):
         csv_reader = csv.DictReader(db_f)
         for note in csv_reader:
             print(f"{  note['id'] } \t {note['datetime'] } \t { note['title'] } \t { note['body'] }\n")
-    
-    # exit(0)
-
+            
 def generate_note_id(csv_path):
     ids = [0]
     with open(csv_path) as f:
