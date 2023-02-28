@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 # email : elwafi.courrier99@gmail.com
 # maintainer : El Wafi El Mehdi
 # date : 09/02/2023

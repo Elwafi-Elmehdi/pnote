@@ -1,6 +1,6 @@
 import unittest
+from pnote import load_csv_database,create_note,delete_note,describe_note,generate_note_id
 import csv
-import sys
 import os
 
 
@@ -8,8 +8,7 @@ class TestPnote(unittest.TestCase):
     
     @classmethod
     def setUpClass(cls):
-        with open('test_db.csv','w') as f:
-            
+        pass
 
 if __name__ == '__main__':
     unittest.main()
