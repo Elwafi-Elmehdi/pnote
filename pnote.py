@@ -90,7 +90,7 @@ def delete_note(note_id,db_f):
             values = line.split(',')
             print(values)
             if int(values[0]) == note_id:
-                del line
+                lines.remove(line)
                 break
 
         with open(db_f,'w') as f:
